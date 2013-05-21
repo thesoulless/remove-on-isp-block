@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		body {
+			text-align: center;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+			/* Used http://www.colorzilla.com/gradient-editor/ to generate gradients */
+			background: #3f4c6b;
+			background: -moz-radial-gradient(center, ellipse cover, #3f4c6b 0%, #3f4c6b 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3f4c6b), color-stop(100%,#3f4c6b));
+			background: -webkit-radial-gradient(center, ellipse cover, #3f4c6b 0%,#3f4c6b 100%);
+			background: -o-radial-gradient(center, ellipse cover, #3f4c6b 0%,#3f4c6b 100%);
+			background: -ms-radial-gradient(center, ellipse cover, #3f4c6b 0%,#3f4c6b 100%);
+			background: radial-gradient(ellipse at center, #3f4c6b 0%,#3f4c6b 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 );
+ 		}
+ 		h1 { color: rgba(244, 244, 244, 0.8); text-shadow: 1px 1px 1px #111; }
+		.wrapper { max-width: 920px; text-align: center; margin: 0 auto; }
+		.fb { width:270px; margin: 0 auto; }
+		iframe { border-radius: 4px; background-color: rgba(240, 240, 240, 0.8); }
+	</style>
+</head>
+
+<body>	
+	<div class="wrapper">
+		<h1>Remove Facebook frame if Facebook is blocked by ISP.</h1>
+		<div class="fb">
+			<iframe src="https://www.facebook.com/plugins/likebox.php?id=424033470999450&amp;width=270&amp;connections=4&amp;stream=false&amp;header=false&amp;height=160" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:160px;" allowtransparency="true"></iframe>
+		</div>
+	</div>
+
+	<script defer="defer" type="text/javascript" src="rfof.js"></script>
+</body>
+</html>
